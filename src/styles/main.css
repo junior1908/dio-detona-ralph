@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/wall.png");
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* height: 50px; */
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 5px solid gold;
+}
+
+.menu-tempo h2:nth-child(1), .menu-ponto h2:nth-child(1) {
+  color: red;
+}
+
+.menu-tempo h2:nth-child(2), .menu-ponto h2:nth-child(2) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-vida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.painel {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quadrado {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000;
+  background-color: #59d8d8;
+}
+
+.ralph {
+  background-image: url(../images/ralph.png);
+  background-size: cover;
+  /* background-color: #8b0000; */
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Configuracao Geral -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detona Ralph</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+  <!-- Div Principal -->
+  <div class="container">
+    
+    <!-- Menu Superior -->
+    <div class="menu">
+      <div class="menu-tempo">
+        <h2>Tempo Restante</h2>
+        <h2 id="tempo-restante">99</h2>
+      </div>
+      <div class="menu-ponto">
+        <h2>Sua Pontuação</h2>
+        <h2 id="pontuacao">0</h2>
+      </div>
+      <div class="menu-vida">
+        <img src="./src/images/player.png" alt="Foto do Jogador" height="50px" />
+        <h2>x3</h2>
+      </div>
+    </div>
+    
+    <!-- Painel do Jogo -->
+    <div class="painel">
+      <div class="painel-coluna">
+        <div class="quadrado" id="1"></div>
+        <div class="quadrado" id="2"></div>
+        <div class="quadrado" id="3"></div>
+      </div>
+
+      <div class="painel-coluna">
+        <div class="quadrado" id="4"></div>
+        <div class="quadrado" id="5"></div>
+        <div class="quadrado ralph" id="6"></div>
+      </div>
+
+      <div class="painel-coluna">
+        <div class="quadrado" id="7"></div>
+        <div class="quadrado" id="8"></div>
+        <div class="quadrado" id="9"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script defer src="./src/scripts/main.js"></script>
+</body>
+</html>
